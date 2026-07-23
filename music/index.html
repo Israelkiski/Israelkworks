@@ -10,6 +10,32 @@
 <link rel="stylesheet" href="/style.css">
 </head>
 <body class="page page--music">
+  <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>
+
+<div class="nav-overlay" id="navOverlay"></div>
+
+<nav class="sidenav" id="sideNav" aria-hidden="true">
+  <a href="/">Home</a>
+  <a href="#contact">Contact</a>
+  <a href="#socials">Socials</a>
+</nav>
+
+<script>
+  const navToggle = document.getElementById('navToggle');
+  const sideNav = document.getElementById('sideNav');
+  const navOverlay = document.getElementById('navOverlay');
+
+  function toggleNav() {
+    const isOpen = document.body.classList.toggle('nav-open');
+    navToggle.setAttribute('aria-expanded', isOpen);
+    sideNav.setAttribute('aria-hidden', !isOpen);
+  }
+
+  navToggle.addEventListener('click', toggleNav);
+  navOverlay.addEventListener('click', toggleNav);
+</script>
 
   <header class="page__header">
     <a href="/" class="back">&larr; back</a>
