@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Israel Kim - Photography</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,500&family=Space+Mono:wght@400;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" type="image/x-icon" href="/Pictures/squareImage-1200x1200.png">
+</head>
+<body class="page page--photo">
+  <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>
+
+<div class="nav-overlay" id="navOverlay"></div>
+
+<nav class="sidenav" id="sideNav" aria-hidden="true">
+  <a href="/">Home</a>
+  <a href="/music">Music</a>
+  <a href="/photography">Photography</a>
+  <a href="https://www.instagram.com/israelk.works?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">Contact</a>
+  <a href="mailto:example@gmail.com">example@gmail.com</a>
+</nav>
+
+<script>
+  const navToggle = document.getElementById('navToggle');
+  const sideNav = document.getElementById('sideNav');
+  const navOverlay = document.getElementById('navOverlay');
+
+  function toggleNav() {
+    const isOpen = document.body.classList.toggle('nav-open');
+    navToggle.setAttribute('aria-expanded', isOpen);
+    sideNav.setAttribute('aria-hidden', !isOpen);
+  }
+
+  navToggle.addEventListener('click', toggleNav);
+  navOverlay.addEventListener('click', toggleNav);
+</script>
+
+  <header class="page__header">
+    <a href="/" class="nav-toggle back">⌂</a>
+  </header>
+
+  <h1 class="page__title">Photography</h1>
+  <p class="page__intro">Photo things</p>
+
+  <div class="grid">
+    <div class="frame"><span>001 · untitled</span></div>
+    <div class="frame"><span>002 · untitled</span></div>
+    <div class="frame"><span>003 · untitled</span></div>
+    <div class="frame"><span>004 · untitled</span></div>
+    <div class="frame"><span>005 · untitled</span></div>
+    <div class="frame"><span>006 · untitled</span></div>
+  </div>
+
+</body>
+</html>
