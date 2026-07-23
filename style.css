@@ -43,9 +43,9 @@ body.home { background: #f4f4f2; }
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("/Pictures/gradient (3).png");
+  background-image: url("/Pictures/gradient (4).png");
   background-size: cover;
-  background-position-y: 0%;
+  background-position-y: 10%;
   background-position-x: center;
   isolation: isolate;
 }
