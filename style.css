@@ -83,7 +83,7 @@ body.home { background: #f4f4f2; }
 }
 
 /* placeholders until real photos are added — replace the background-image url() below */
-.btn--music { background-image: url("/Pictures/IMG_6845.jpeg"); }
+.btn--music { background-image: url("/Pictures/image1.jpg"); }
 .btn--photo { background-image: url("/Pictures/IMG_6822.jpeg"); }
 
 .btn__label {
