@@ -241,12 +241,8 @@ body.nav-open .nav-overlay { opacity: 1; pointer-events: auto; }
 .page--photo .page__header { border-bottom: 1px solid var(--line-on-light); }
 
 .back {
-  font-family: var(--mono);
-  font-size: 13px;
-  letter-spacing: 0.04em;
-  opacity: 0.8;
+  position: static !important;
 }
-.back:hover { opacity: 1; }
 
 .page__kicker {
   font-family: var(--mono);
