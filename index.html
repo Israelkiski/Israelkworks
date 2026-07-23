@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Studio — Music &amp; Photography</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,500&family=Space+Mono:wght@400;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="split">
+
+  <a href="music.html" class="pane pane--music" aria-label="Enter Music">
+    <div class="pane__field" aria-hidden="true">
+      <div class="eq">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+    </div>
+    <div class="pane__content">
+      <span class="eyebrow eyebrow--music">side A</span>
+      <h1 class="pane__title pane__title--music">Music</h1>
+      <p class="pane__sub">tracks, sets &amp; sessions</p>
+    </div>
+  </a>
+
+  <a href="photography.html" class="pane pane--photo" aria-label="Enter Photography">
+    <div class="pane__field" aria-hidden="true">
+      <svg class="iris" viewBox="0 0 100 100" aria-hidden="true">
+        <g class="iris__blades">
+          <polygon points="50,50 50,4 68,10"></polygon>
+          <polygon points="50,50 82,18 90,34"></polygon>
+          <polygon points="50,50 96,50 90,68"></polygon>
+          <polygon points="50,50 82,82 68,90"></polygon>
+          <polygon points="50,50 50,96 32,90"></polygon>
+          <polygon points="50,50 18,82 10,68"></polygon>
+          <polygon points="50,50 4,50 10,32"></polygon>
+          <polygon points="50,50 18,18 34,10"></polygon>
+        </g>
+      </svg>
+      <div class="exif" aria-hidden="true">f/1.4&nbsp; ·&nbsp; 1/125&nbsp; ·&nbsp; ISO 200</div>
+    </div>
+    <div class="pane__content">
+      <span class="eyebrow eyebrow--photo">side B</span>
+      <h1 class="pane__title pane__title--photo">Photography</h1>
+      <p class="pane__sub">frames &amp; contact sheets</p>
+    </div>
+  </a>
+
+  <div class="seam" aria-hidden="true"></div>
+
+</main>
+
+</body>
+</html>
