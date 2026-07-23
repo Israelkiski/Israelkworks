@@ -43,7 +43,9 @@ body.home { background: #f4f4f2; }
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #ffffff 0%, #9a9a9a 50%, #000000 100%);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTSEJSqkL28Z0opzwWjogw3k9GeU4CmUQEE7JJ92ZxvjcoEzn5lUqlFD5J&s=10");
+  background-size: cover;
+  background-position: center;
   isolation: isolate;
 }
 
