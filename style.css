@@ -233,7 +233,8 @@ body.nav-open .nav-overlay { opacity: 1; pointer-events: auto; }
 .page__header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: end;
+  gap: 10px;
   padding: clamp(20px, 4vw, 40px) clamp(24px, 5vw, 64px);
   border-bottom: 1px solid var(--line-on-dark);
 }
