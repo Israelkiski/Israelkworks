@@ -83,17 +83,8 @@ body.home { background: #f4f4f2; }
 }
 
 /* placeholders until real photos are added — replace the background-image url() below */
-.btn--music { background-image: linear-gradient(160deg, #d8d8d6, #b7b7b3); }
-.btn--photo { background-image: linear-gradient(160deg, #c9c9c5, #a8a8a3); }
-
-.btn::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.32);
-  transition: background 450ms ease;
-  z-index: 0;
-}
+.btn--music { background-image: url("/pics/image.jpg"); }
+.btn--photo { background-image: url(""); }
 
 .btn__label {
   position: relative;
