@@ -43,7 +43,7 @@ body.home { background: #f4f4f2; }
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuGvoRn-My6MrdYTOAr1YPKQiuSTPX6UNYUWwJ2bXazjLnCYCuoaOKcLM&s=10");
+  background-image: { background-image: url("/Pictures/image1.jpg"); }
   background-size: cover;
   background-position: center;
   isolation: isolate;
