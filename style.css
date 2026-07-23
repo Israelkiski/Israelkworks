@@ -1,6 +1,6 @@
 /* ---------- tokens ---------- */
 :root {
-  --ink: #12131A;       /* music ground */
+  --ink: #d1fff5;       /* music ground */
   --ink-2: #1B1D27;
   --amber: #E3B23C;     /* music accent, stage light */
   --amber-dim: #8a6c28;
@@ -10,7 +10,7 @@
   --teal: #22303A;      /* photography accent, darkroom ink */
   --teal-dim: #5c6c74;
 
-  --paper: #F5F3EE;
+  --paper: #1c1c1c;
   --line-on-dark: rgba(245,243,238,0.16);
   --line-on-light: rgba(18,19,26,0.14);
 
