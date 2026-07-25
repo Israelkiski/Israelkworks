@@ -367,7 +367,7 @@ body.nav-open .nav-overlay { opacity: 1; pointer-events: auto; }
 }
 
 .bio-box {
-  background: #a3a3a3;
+  background: #575656;
   border: 1px solid rgba(255,255,255,0.1);
   border-radius: 6px;
   padding: clamp(20px, 3vw, 32px);
