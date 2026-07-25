@@ -324,7 +324,7 @@ body.nav-open .nav-overlay { opacity: 1; pointer-events: auto; }
 /* ---------- homepage: about section ---------- */
 .about {
   position: relative;
-  background: linear-gradient(to bottom, rgba(46,46,46,0) 0, #2e2e2e 380px);
+  background: linear-gradient(to bottom, rgba(163,163,163,0) 0, #a3a3a3 380px);
   color: #f2ede8;
   padding: clamp(56px, 8vw, 100px) 5vw;
 }
@@ -348,7 +348,7 @@ body.nav-open .nav-overlay { opacity: 1; pointer-events: auto; }
 .about__photo {
   aspect-ratio: 1 / 1;
   border-radius: 6px;
-  background: #2a231e;
+  background: #a3a3a3;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -367,7 +367,7 @@ body.nav-open .nav-overlay { opacity: 1; pointer-events: auto; }
 }
 
 .bio-box {
-  background: #2a231e;
+  background: #a3a3a3;
   border: 1px solid rgba(255,255,255,0.1);
   border-radius: 6px;
   padding: clamp(20px, 3vw, 32px);
