@@ -57,7 +57,7 @@ body.home {
   font-weight: 700;
   font-size: clamp(30px, 6vw, 68px);
   letter-spacing: -0.01em;
-  color: #1c1815;
+  color: #242424;
   text-align: center;
   padding: 0 24px;
 }
@@ -335,6 +335,7 @@ body.nav-open .nav-overlay { opacity: 1; pointer-events: auto; }
   font-size: clamp(28px, 4vw, 48px);
   text-align: center;
   margin: 0 0 clamp(32px, 5vw, 56px);
+  color: #242424;
 }
 
 .about__grid {
