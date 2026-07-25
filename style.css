@@ -148,24 +148,6 @@ body.home {
   }
   .btn { width: min(78vw, 380px); }
 }
-.scroll-cue {
-  display: flex;
-  justify-content: center;
-  padding-bottom: clamp(28px, 5vw, 56px);
-  color: #1c1815;
-  opacity: 0.55;
-}
-
-.scroll-cue__arrow {
-  font-size: 22px;
-  line-height: 1;
-  animation: scroll-cue-bounce 1.8s ease-in-out infinite;
-}
-
-@keyframes scroll-cue-bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(7px); }
-}
 
 /* ---------- hamburger + sliding sidebar ---------- */
 .nav-toggle {
