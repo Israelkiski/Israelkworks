@@ -21,6 +21,7 @@
 
 * { box-sizing: border-box; }
 html, body { height: 100%; }
+html { scroll-behavior: smooth; }
 body {
   margin: 0;
   font-family: var(--body);
@@ -324,7 +325,7 @@ body.nav-open .nav-overlay { opacity: 1; pointer-events: auto; }
 /* ---------- homepage: about section ---------- */
 .about {
   position: relative;
-  background: #111;
+  background: linear-gradient(to bottom, rgba(17,17,17,0) 0, #111 380px);
   color: #f2f2f2;
   padding: clamp(56px, 8vw, 100px) 5vw;
 }
@@ -397,7 +398,7 @@ body.nav-open .nav-overlay { opacity: 1; pointer-events: auto; }
 
 /* ---------- homepage: contact strip ---------- */
 .contact-strip {
-  background: #000;
+  background: #111;
   padding: clamp(28px, 4vw, 40px) 5vw;
   display: flex;
   flex-wrap: wrap;
