@@ -68,7 +68,7 @@ body.home {
   align-items: center;
   justify-content: center;
   gap: clamp(20px, 4vw, 56px);
-  padding: clamp(36px, 6vw, 80px) 5vw clamp(10px, 2vw, 20px);
+  padding: clamp(36px, 6vw, 80px) 5vw clamp(16px, 3vw, 30px);
 }
 
 .btn {
