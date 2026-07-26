@@ -195,7 +195,7 @@ body.home {
 @keyframes chevron-pulse {
   0%, 100% { opacity: 0.15; transform: translateY(0); }
   50% { opacity: 0.9; transform: translateY(3px); }
-transform: translateY(-30px);
+transform: translateY(-50px);
 }
 
 /* ---------- hamburger + sliding sidebar ---------- */
