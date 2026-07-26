@@ -155,6 +155,9 @@ body.home {
   gap: 2px;
   padding-bottom: clamp(12px, 2vw, 24px);
   color: #1c1815;
+.scroll-cue {
+  margin-top: -40px;
+}
 }
 
 .chevron {
