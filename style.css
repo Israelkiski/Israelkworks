@@ -536,10 +536,11 @@ body.nav-open .nav-overlay { opacity: 1; pointer-events: auto; }
 }
 .photo-feature__img {
   aspect-ratio: 3 / 4;
-  background-size: cover;
-  background-position: center 20%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 6px;
-  background-color: var(--bone-2);
+  background-color: #1a1a1a;
 }
 
 .book-shoot {
