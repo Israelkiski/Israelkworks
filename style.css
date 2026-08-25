@@ -535,9 +535,9 @@ body.nav-open .nav-overlay { opacity: 1; pointer-events: auto; }
   padding: 0 clamp(24px, 5vw, 64px) 40px;
 }
 .photo-feature__img {
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 3 / 4;
   background-size: cover;
-  background-position: center top;
+  background-position: center 20%;
   border-radius: 6px;
   background-color: var(--bone-2);
 }
