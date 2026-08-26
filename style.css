@@ -545,8 +545,7 @@ body.nav-open .nav-overlay { opacity: 1; pointer-events: auto; }
 .book-shoot {
   margin: 20px clamp(24px, 5vw, 64px) 50px;
   padding: clamp(24px, 4vw, 40px);
-  background: rgba(227, 178, 60, 0.08);
-  border: 1px solid var(--amber);
+  background: #F5EFE0;
   border-radius: 8px;
 }
 .book-shoot h2 {
